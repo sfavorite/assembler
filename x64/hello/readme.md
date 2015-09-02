@@ -11,4 +11,5 @@ OS: Linux .18.11-gentoo x86_64 Intel(R)
 To compile:
 
 nasm -f elf64 -o hello.o main.asm
+
 ld -o hello hello.o
